@@ -14,15 +14,10 @@ A web app in react with filtering of data based on studios, currency and categor
 ## Getting Started
 
 ### Prerequisites
-
-List any software, tools, or dependencies that need to be installed or configured before using your project. For example:
-
 - Node.js (v14 or higher)
 - npm (Node Package Manager)
 
 ### Installation
-
-Provide step-by-step instructions for installing your project. Include any command-line commands or configuration files needed for installation. For example:
 
 1. Clone the repository to your local machine:
 
