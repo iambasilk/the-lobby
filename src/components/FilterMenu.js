@@ -18,9 +18,6 @@ function FilterMenu() {
   // State for showing all studios or not
   const [showAll, setShowAll] = useState(false);
 
-  // State for tracking the currently active studio
-  const [activeStudio, setActiveStudio] = useState("ALL"); // Initialize with "ALL" or your default value
-
   // Function to toggle showAll state
   const toggleShowAll = () => {
     setShowAll(!showAll);
@@ -29,15 +26,6 @@ function FilterMenu() {
   // Function to show less studios
   const toggleShowLess = () => {
     setShowAll(false);
-  };
-
-  // State for tracking the clicked button
-  const [clickedButton, setClickedButton] = useState(null);
-
-  // Function to handle button click
-  const handleButtonClick = (studioName) => {
-    changeStudio(studioName); // Update selectedStudio in context
-    setClickedButton(studioName); // Store the clicked button's identifier
   };
 
   return (
