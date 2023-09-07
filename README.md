@@ -4,6 +4,8 @@
 
 A web app in react with filtering of data based on studios, currency and category of games.
 
+For demo: https://iridescent-cheesecake-0cf2b5.netlify.app/
+
 ## Table of Contents
 
 - [Description](#description)
